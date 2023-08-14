@@ -8,7 +8,7 @@ printf("Enter marks for the 5 subjects:");
 scanf("%d%d%d%d%d", &phyc,&chem,&bio,&math,&comp);
 
 //Calculate the percentage
-per=(phy + chem + bio + math + comp) / 5.0;
+per=(phyc + chem + bio + math + comp) / 5.0;
 printf("Percentage = %.2f\n"), per);
 
 //Find grade according to the percentage
